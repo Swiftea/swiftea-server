@@ -5,6 +5,7 @@ from app.task import new_task
 
 app = Flask(__name__)
 
+
 @app.route('/status')
 def status():
     """Get crawler's status.
@@ -13,6 +14,7 @@ def status():
 
     """
     return {'response': "Crawler's status"}
+
 
 @app.route('/start-crawler', methods=['POST'])
 def start_crawler():
@@ -23,5 +25,5 @@ def start_crawler():
         target_level = int(request.form['target-level'])
     except KeyError:
         target_level = 1
-    response = new_task(url=url, level=level)
+    response = new_task(url=url, level=level, target_level=target_level)
     return jsonify(response)

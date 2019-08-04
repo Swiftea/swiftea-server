@@ -19,3 +19,7 @@ Then:
 ### Run
 
 		flask run
+
+### Lint
+
+		prospector > prospector_output.json

@@ -1,5 +1,6 @@
 venv
 app/worker/
+prospector_output.json
 
 *.pyc
 __pycache__/

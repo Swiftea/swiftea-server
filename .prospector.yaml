@@ -1,0 +1,25 @@
+output-format: json
+
+strictness: high
+
+uses:
+    - flask
+
+test-warnings: true
+doc-warnings: false
+member-warnings: true
+
+ignore-paths:
+  - build
+
+dodgy:
+  run: true
+
+pep8:
+  full: true
+
+pyroma:
+  run: true
+
+vulture:
+  run: true
