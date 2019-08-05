@@ -6,7 +6,7 @@ from app.task import new_task
 app = Flask(__name__)
 
 
-@app.route('/status')
+@app.route('/swiftea-server/status')
 def status():
     """Get crawler's status.
 
@@ -16,7 +16,7 @@ def status():
     return {'response': "Crawler's status"}
 
 
-@app.route('/start-crawler', methods=['POST'])
+@app.route('/swiftea-server/start-crawler', methods=['POST'])
 def start_crawler():
     """Start a new domain crawler."""
     url = request.form['url']

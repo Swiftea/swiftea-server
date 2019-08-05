@@ -23,3 +23,13 @@ Then:
 ### Lint
 
 		prospector > prospector_output.json
+
+## Deploy
+
+Application path: `/www/swiftea-server/app.wsgi`.
+
+Working directory: `/www/swiftea-server`.
+
+		pip install -r requirements.txt --user
+
+Create folder `wroker` and upload `wroker/crawler-config.json`.
