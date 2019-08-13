@@ -2,6 +2,8 @@
 
 This is the server for asking to launch the [Swiftea Crawler](https://github.com/Swiftea/Crawler).
 
+Current version is `0.0.1`.
+
 ## Setup
 
 		virtualenv -p /usr/bin/python3.7 venv
