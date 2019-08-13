@@ -12,5 +12,6 @@ class CrawlerThread(Thread):
 
     def run(self):
         os.chdir('app/worker')
-        main(**self.args)
-        os.chdir('../../..')
+        crawler = main(**self.args)
+        crawler.start()
+        os.chdir('../..')
