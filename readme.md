@@ -13,6 +13,8 @@ Add these lines in `venv/bin/activate`:
 		export FLASK_APP=app/app.py
 		export FLASK_ENV=development
 
+with this command : `echo -e "export FLASK_APP=app/app.py\nexport FLASK_ENV=development" >> venv/bin/activate`
+
 Then:
 
 		source venv/bin/activate
@@ -35,3 +37,9 @@ Working directory: `/www/swiftea-server`.
 		pip install -r requirements.txt --user
 
 Create folder `wroker` and upload `wroker/crawler-config.json`.
+
+
+## TODO
+
+Clrawer should not call `sys.exit`.
+Crawler : remove log in send inverted index.
