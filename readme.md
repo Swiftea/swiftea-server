@@ -37,3 +37,12 @@ Working directory: `/www/swiftea-server`.
 		pip install -r requirements.txt --user
 
 Create folder `wroker` and upload `wroker/crawler-config.json`.
+
+### Push a new version
+
+Install the new version of `swiftea-crawler` if available.
+
+		cd /www/swiftea-server
+		git pull
+
+Restart the server.
