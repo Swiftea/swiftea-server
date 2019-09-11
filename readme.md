@@ -37,9 +37,3 @@ Working directory: `/www/swiftea-server`.
 		pip install -r requirements.txt --user
 
 Create folder `wroker` and upload `wroker/crawler-config.json`.
-
-
-## TODO
-
-Clrawer should not call `sys.exit`.
-Crawler : remove log in send inverted index.
