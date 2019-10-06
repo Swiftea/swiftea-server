@@ -43,6 +43,14 @@ Create folder `wroker` and upload `wroker/crawler-config.json`.
 Install the new version of `swiftea-crawler` if available.
 
 		cd /www/swiftea-server
+		pip uninstall swiftea-crawler
+		pip install swiftea_crawler-1.1.6-py3-none-any.whl --user
 		git pull
 
 Restart the server.
+
+### Prod
+
+See uwsgi logs: `tail -n 50 ~/admin/logs/uwsgi/*.log`.
+
+See crawler logs:  `tail -n 50 ~/www/swiftea-server/app/worker/data/config/events.log`.
