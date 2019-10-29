@@ -44,7 +44,7 @@ Install the new version of `swiftea-crawler` if available.
 
 		cd www/swiftea-server
 		pip uninstall swiftea-crawler
-		pip install swiftea_crawler-1.1.6-py3-none-any.whl --user
+		pip install swiftea_crawler-1.1.8-py3-none-any.whl --user
 		git pull
 
 Restart the server.
