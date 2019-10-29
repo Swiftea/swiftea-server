@@ -42,7 +42,7 @@ Create folder `wroker` and upload `wroker/crawler-config.json`.
 
 Install the new version of `swiftea-crawler` if available.
 
-		cd /www/swiftea-server
+		cd www/swiftea-server
 		pip uninstall swiftea-crawler
 		pip install swiftea_crawler-1.1.6-py3-none-any.whl --user
 		git pull
